@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Rey Vincent Diotay" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js"></script>
+    <title>My Personal Portfolio</title>
+  </head>
+  <body>
+    <nav class='padChild topHeader'>
+      <div class='flex-space-btw'>
+        <a class="centered logo">TradewithVncnt$<img src="images/icon.svg" class="icon"></img></a>
+        <a href='mailto:tradewithvincentd@gmail.com' class='centered'>tradewithvincentd@gmail.com <img src='images/linkIcon.svg' class='icon'></img></a>
+      </div>
+    </nav>
+    <div class='container'>
+      <section class='grid2 aboutSection'>
+        <div class='centered'>
+          <div>
+            <h2>Hi, I'm Rey Vincent Diotay</h2>
+            <p class='paragraph'>I am a student in Cebu Technological University Tuburan Campus with <script>document.write(new Date().getFullYear() - 2018)</script>+ years of experience in Trading Crypto Currencies, Im making my small group who
+              are also interested in Trading Crypto Currencies. Currently making lives better at 
+              <a href="https://www.binance.com/en" class="accentColor bold">Binance 
+               <img src="images/linkIcon.svg" class="icon"></img>
+             </a>
+           </p>
+          </div>
+        </div>
+        <div class='aboutImg backgroundFix' style="background-image: url(images/aboutImg.jpg)"></div>
+      </section>
+    </div>
+    <div class='container experience-section'>
+      <section >
+        <h2>Experience</h2>
+        <div class='flex-wrap'>
+          <div>
+            <a href="#" class="accentColor bold">Binance
+              <img src="images/linkIcon.svg" class="icon"></img>
+            </a>
+            <p>Financial Expert</p>
+            <p>2018 - 2019</p>
+          </div>
+          <div>
+            <a href="#" class="accentColor bold">Axie Infinity
+              <img src="images/linkIcon.svg" class="icon"></img>
+            </a>
+            <p>Axie Manager</p>
+            <p>2019 - 2020</p>
+          </div>
+          <div>
+            <a href="#" class="accentColor bold">Binance Trader
+              <img src="images/linkIcon.svg" class="icon"></img>
+            </a>
+            <p>Expert Scalper</p>
+            <p>2018 - Present</p>
+          </div>
+          <div>
+            <a href="#" class="accentColor bold">Web Development
+              <img src="images/linkIcon.svg" class="icon"></img>
+            </a>
+            <p>Rookie Web Developer</p>
+            <p>2016 - Present</p>
+          </div>
+        </div>
+        <a href="https://www.canva.com/design/DAFW0aNlI8s/xGjCH-b6nn4IPdQdnqFYdA/edit?utm_content=DAFW0aNlI8s&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" class="accentColor bold resume">View Resume<img src="images/linkIcon.svg" class="icon"></img></a>
+      </section>
+    </div>
+    <div class='container portfolio-section'>
+      <section >
+        <h2>Portfolio</h2>
+        <div class='grid3'>
+          <a href="https://www.binance.com/en/trade/LUNC_BUSD?_from=markets&theme=dark&type=spot">
+              <div class="portfolio-image backgroundFix" style='background-image: url(images/trade.jpg)'>
+              </div>
+              <h3 class="bold">Sucessfully sold U$DT</h3>
+              <p>
+                When you successfully sold crypto coins, you might want to celebrate with a drink. But the thing is, it's not just the thought of getting your money that feels good. It's also that sense of power - finally liberating yourself from what you see as an unfair system.
+              </p>
+            </a>
+          <a href="https://www.binance.com/en/trade/HBAR_BUSD?_from=markets&theme=dark&type=spot">
+              <div class="portfolio-image backgroundFix" style='background-image: url(images/trade1.jpg)'>
+                
+              </div>
+              <h3 class="bold">Win in trading Short</h3>
+              <p>
+                A person who has been rich for a long time and will continue to be rich.
+              </p>
+            </a>
+          <a href="https://www.binance.com/en/trade/DOT_BUSD?_from=markets&theme=dark&type=spot">
+              <div class="portfolio-image backgroundFix" style='background-image: url(images/trade2.jpg)'>
+                
+              </div>
+              <h3 class="bold">Analyzing </h3>
+              <p>
+                The crypto market is a difficult environment to trade in. It is plagued by high volatility, with prices oscillating wildly on a daily basis. This has led to the emergence of sophisticated algorithms that can analyze the market and predict its future performance.
+              </p>
+            </a>
+          <a href="https://www.binance.com/en/trade/ALGO_BUSD?_from=markets&theme=dark&type=spot">
+              <div class="portfolio-image backgroundFix" style='background-image: url(images/trade3.jpg)'>
+                
+              </div>
+              <h3 class="bold">Predicting Movements</h3>
+              <p>
+                As the digital currency market is becoming more volatile than ever, we should focus on the predictions of the experts in order to make smarter investments and get a better return on our money.
+              </p>
+            </a>
+        </div>
+      </section>
+    </div>
+    <footer class='padChild topHeader'>
+      <div class='flex-space-btw'>
+        <a class="centered logo">TradewithVncnt$<img src="images/icon.svg" class="icon"></img></a>
+        <a href='mailto:tradewithvincentd@gmail.com' class='centered'>tradewithvincentd@gmail.com <img src='images/linkIcon.svg' class='icon'></img></a>
+      </div>
+    </footer>
+  </body>
+</html>
